@@ -1,0 +1,79 @@
+ubuntu $ git config --global user.email "brian@brianlamb.io"
+ubuntu $ git config --global user.name "brianlamb"
+ubuntu $ git commit -m "added and pushed repo; environment reset, git init; git remote add <remote>, git pull, git add *, git pull remote main, *this commit"
+[master 898c08e] added and pushed repo; environment reset, git init; git remote add <remote>, git pull, git add *, git pull remote main, *this commit
+ 10 files changed, 160 insertions(+)
+ create mode 100644 File-01.txt
+ create mode 100644 file-01
+ create mode 100644 file-01.txt
+ create mode 100644 file-02
+ create mode 120000 filesystem
+ create mode 100644 notmyfile
+ create mode 100644 notmyfile2
+ create mode 100644 testdir/file-01
+ create mode 100644 testdir/file-04
+ create mode 100644 testdir/testdir2/file-05
+ubuntu $ git push remote origin
+error: src refspec origin does not match any
+error: failed to push some refs to 'remote'
+ubuntu $ git push origin main  
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/brianlamb/killercoda-lxf.git'
+ubuntu $ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+ubuntu $ git branch --set-upstream-to=origin/main        
+Branch 'master' set up to track remote branch 'main' from 'origin'.
+ubuntu $ git branch --set-upstream-to=origin/main main
+fatal: branch 'main' does not exist
+ubuntu $ git status
+On branch master
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .bash_history
+        .bashrc
+        .gitconfig
+        .hidden-file
+        .profile
+        .ssh/
+        .theia/
+        .vimrc
+
+nothing added to commit but untracked files present (use "git add" to track)
+ubuntu $ git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/brianlamb/killercoda-lxf.git'
+ubuntu $ git push            
+fatal: The upstream branch of your current branch does not match
+the name of your current branch.  To push to the upstream branch
+on the remote, use
+
+    git push origin HEAD:main
+
+To push to the branch of the same name on the remote, use
+
+    git push origin HEAD
+
+To choose either option permanently, see push.default in 'git help config'.
+ubuntu $ git branch main
+ubuntu $ git push origin main
+Username for 'https://github.com': brianlamb
+Password for 'https://brianlamb@github.com': 
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (9/9), 2.59 KiB | 2.59 MiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To https://github.com/brianlamb/killercoda-lxf.git
+   16dbd92..898c08e  main -> main
