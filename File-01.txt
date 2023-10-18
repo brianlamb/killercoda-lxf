@@ -1,0 +1,156 @@
+Oct 18 20:03:03 ubuntu systemd[1]: Stopping Network Name Resolution...
+Oct 18 20:03:03 ubuntu rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="558" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Oct 18 20:03:03 ubuntu systemd[1]: systemd-resolved.service: Succeeded.
+Oct 18 20:03:03 ubuntu systemd[1]: Stopped Network Name Resolution.
+Oct 18 20:03:03 ubuntu systemd[1]: Starting Network Name Resolution...
+Oct 18 20:03:03 ubuntu dbus-daemon[548]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.56' (uid=112 pid=22297 comm="/usr/bin/fwupdmgr refresh " label="unconfined")
+Oct 18 20:03:03 ubuntu systemd[1]: Starting Firmware update daemon...
+Oct 18 20:03:03 ubuntu systemd-resolved[22337]: Positive Trust Anchors:
+Oct 18 20:03:03 ubuntu systemd-resolved[22337]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Oct 18 20:03:03 ubuntu systemd-resolved[22337]: Negative trust anchors: 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Oct 18 20:03:03 ubuntu systemd-resolved[22337]: Using system hostname 'ubuntu'.
+Oct 18 20:03:03 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+Oct 18 20:03:03 ubuntu systemd[1]: Finished Clean php session files.
+Oct 18 20:03:03 ubuntu systemd[1]: Started Network Name Resolution.
+Oct 18 20:03:03 ubuntu systemd[1]: logrotate.service: Succeeded.
+Oct 18 20:03:03 ubuntu systemd[1]: Finished Rotate log files.
+Oct 18 20:03:09 ubuntu dbus-daemon[548]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Oct 18 20:03:09 ubuntu systemd[1]: Started Firmware update daemon.
+Oct 18 20:03:09 ubuntu fwupdmgr[22297]: Updating lvfs
+Oct 18 20:03:09 ubuntu fwupdmgr[22297]: Downloading…: 0%
+Oct 18 20:03:09 ubuntu fwupdmgr[22297]: Downloading…: 100%
+Oct 18 20:03:09 ubuntu fwupdmgr[22297]: Idle…: 100%
+Oct 18 20:03:09 ubuntu fwupdmgr[22297]: Downloading…: 100%
+Oct 18 20:03:09 ubuntu fwupdmgr[22297]: Downloading…: 0%
+Oct 18 20:03:09 ubuntu fwupdmgr[22297]: Downloading…: 1%
+Oct 18 20:03:09 ubuntu fwupdmgr[22297]: Downloading…: 3%
+Oct 18 20:03:09 ubuntu fwupdmgr[22297]: Downloading…: 6%
+Oct 18 20:03:09 ubuntu fwupdmgr[22297]: Downloading…: 8%
+Oct 18 20:03:09 ubuntu fwupdmgr[22297]: Downloading…: 10%
+Oct 18 20:03:09 ubuntu fwupdmgr[22297]: Downloading…: 12%
+Oct 18 20:03:09 ubuntu fwupdmgr[22297]: Downloading…: 25%
+Oct 18 20:03:09 ubuntu fwupdmgr[22297]: Downloading…: 100%
+Oct 18 20:03:09 ubuntu fwupdmgr[22297]: Idle…: 100%
+Oct 18 20:03:09 ubuntu systemd[1]: man-db.service: Succeeded.
+Oct 18 20:03:09 ubuntu systemd[1]: Finished Daily man-db regeneration.
+Oct 18 20:03:10 ubuntu fwupdmgr[22297]: Successfully downloaded new metadata: 0 local devices supported
+Oct 18 20:03:10 ubuntu systemd[1]: fwupd-refresh.service: Succeeded.
+Oct 18 20:03:10 ubuntu systemd[1]: Finished Refresh fwupd metadata and update motd.
+Oct 18 20:03:32 ubuntu systemd[1]: systemd-timedated.service: Succeeded.
+Oct 18 20:05:55 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 3 (xid=0xb9c6cf7c)
+Oct 18 20:05:58 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 3 (xid=0xb9c6cf7c)
+Oct 18 20:06:01 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 5 (xid=0xb9c6cf7c)
+Oct 18 20:06:06 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 7 (xid=0xb9c6cf7c)
+Oct 18 20:06:13 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 19 (xid=0xb9c6cf7c)
+Oct 18 20:06:32 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 18 (xid=0xb9c6cf7c)
+Oct 18 20:06:50 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 15 (xid=0xb9c6cf7c)
+Oct 18 20:07:05 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 14 (xid=0xb9c6cf7c)
+Oct 18 20:07:19 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 11 (xid=0xb9c6cf7c)
+Oct 18 20:07:26 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 3 (xid=0xb5e5aa07)
+Oct 18 20:07:29 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 4 (xid=0xb5e5aa07)
+Oct 18 20:07:30 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 7 (xid=0xb9c6cf7c)
+Oct 18 20:07:33 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 6 (xid=0xb5e5aa07)
+Oct 18 20:07:37 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 12 (xid=0xb9c6cf7c)
+Oct 18 20:07:39 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 15 (xid=0xb5e5aa07)
+Oct 18 20:07:49 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 17 (xid=0xb9c6cf7c)
+Oct 18 20:07:54 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 11 (xid=0xb5e5aa07)
+Oct 18 20:08:05 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 17 (xid=0xb5e5aa07)
+Oct 18 20:08:06 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 16 (xid=0xb9c6cf7c)
+Oct 18 20:08:16 ubuntu PackageKit: daemon quit
+Oct 18 20:08:16 ubuntu systemd[1]: packagekit.service: Succeeded.
+Oct 18 20:08:22 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 13 (xid=0xb5e5aa07)
+Oct 18 20:08:22 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 16 (xid=0xb9c6cf7c)
+Oct 18 20:08:35 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 16 (xid=0xb5e5aa07)
+Oct 18 20:08:38 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 18 (xid=0xb9c6cf7c)
+Oct 18 20:08:51 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 3 (xid=0xdd46fd42)
+Oct 18 20:08:51 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 14 (xid=0xb5e5aa07)
+Oct 18 20:08:54 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 4 (xid=0xdd46fd42)
+Oct 18 20:08:56 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 15 (xid=0xb9c6cf7c)
+Oct 18 20:08:58 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 9 (xid=0xdd46fd42)
+Oct 18 20:09:01 ubuntu CRON[22889]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 18 20:09:05 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 18 (xid=0xb5e5aa07)
+Oct 18 20:09:05 ubuntu systemd[1]: Starting Clean php session files...
+Oct 18 20:09:05 ubuntu systemd[1]: phpsessionclean.service: Succeeded.
+Oct 18 20:09:05 ubuntu systemd[1]: Finished Clean php session files.
+Oct 18 20:09:07 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 19 (xid=0xdd46fd42)
+Oct 18 20:09:11 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 7 (xid=0xb9c6cf7c)
+Oct 18 20:09:18 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 13 (xid=0xb9c6cf7c)
+Oct 18 20:09:23 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 18 (xid=0xb5e5aa07)
+Oct 18 20:09:26 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 15 (xid=0xdd46fd42)
+Oct 18 20:09:31 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 18 (xid=0xb9c6cf7c)
+Oct 18 20:09:41 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 13 (xid=0xb5e5aa07)
+Oct 18 20:09:41 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 7 (xid=0xdd46fd42)
+Oct 18 20:09:48 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 7 (xid=0xdd46fd42)
+Oct 18 20:09:49 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 14 (xid=0xb9c6cf7c)
+Oct 18 20:09:54 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 18 (xid=0xb5e5aa07)
+Oct 18 20:09:55 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 15 (xid=0xdd46fd42)
+Oct 18 20:10:03 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 14 (xid=0xb9c6cf7c)
+Oct 18 20:10:10 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 14 (xid=0xdd46fd42)
+Oct 18 20:10:12 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 20 (xid=0xb5e5aa07)
+Oct 18 20:10:17 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 15 (xid=0xb9c6cf7c)
+Oct 18 20:10:24 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 16 (xid=0xdd46fd42)
+Oct 18 20:10:32 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 10 (xid=0xb5e5aa07)
+Oct 18 20:10:32 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 14 (xid=0xb9c6cf7c)
+Oct 18 20:10:40 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 7 (xid=0xdd46fd42)
+Oct 18 20:10:42 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 13 (xid=0xb5e5aa07)
+Oct 18 20:10:46 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 8 (xid=0xb9c6cf7c)
+Oct 18 20:10:47 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 14 (xid=0xdd46fd42)
+Oct 18 20:10:54 ubuntu dhclient[22191]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 2 (xid=0xb9c6cf7c)
+Oct 18 20:10:55 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 8 (xid=0xb5e5aa07)
+Oct 18 20:10:56 ubuntu dhclient[22191]: No DHCPOFFERS received.
+Oct 18 20:10:56 ubuntu dhclient[22191]: No working leases in persistent database - sleeping.
+Oct 18 20:10:56 ubuntu systemd[1]: Stopping Network Name Resolution...
+Oct 18 20:10:56 ubuntu systemd[1]: systemd-resolved.service: Succeeded.
+Oct 18 20:10:56 ubuntu systemd[1]: Stopped Network Name Resolution.
+Oct 18 20:10:56 ubuntu systemd[1]: Starting Network Name Resolution...
+Oct 18 20:10:56 ubuntu systemd-resolved[22941]: Positive Trust Anchors:
+Oct 18 20:10:56 ubuntu systemd-resolved[22941]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Oct 18 20:10:56 ubuntu systemd-resolved[22941]: Negative trust anchors: 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Oct 18 20:10:56 ubuntu systemd-resolved[22941]: Using system hostname 'ubuntu'.
+Oct 18 20:10:56 ubuntu systemd[1]: Started Network Name Resolution.
+Oct 18 20:11:01 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 15 (xid=0xdd46fd42)
+Oct 18 20:11:03 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 9 (xid=0xb5e5aa07)
+Oct 18 20:11:12 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 9 (xid=0xb5e5aa07)
+Oct 18 20:11:16 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 11 (xid=0xdd46fd42)
+Oct 18 20:11:21 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 12 (xid=0xb5e5aa07)
+Oct 18 20:11:27 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 11 (xid=0xdd46fd42)
+Oct 18 20:11:33 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 8 (xid=0xb5e5aa07)
+Oct 18 20:11:38 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 13 (xid=0xdd46fd42)
+Oct 18 20:11:41 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 11 (xid=0xb5e5aa07)
+Oct 18 20:11:51 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 7 (xid=0xdd46fd42)
+Oct 18 20:11:52 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 9 (xid=0xb5e5aa07)
+Oct 18 20:11:58 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 14 (xid=0xdd46fd42)
+Oct 18 20:12:01 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 20 (xid=0xb5e5aa07)
+Oct 18 20:12:12 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 12 (xid=0xdd46fd42)
+Oct 18 20:12:21 ubuntu dhclient[22224]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 6 (xid=0xb5e5aa07)
+Oct 18 20:12:24 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 11 (xid=0xdd46fd42)
+Oct 18 20:12:27 ubuntu dhclient[22224]: No DHCPOFFERS received.
+Oct 18 20:12:27 ubuntu dhclient[22224]: No working leases in persistent database - sleeping.
+Oct 18 20:12:27 ubuntu systemd[1]: Stopping Network Name Resolution...
+Oct 18 20:12:27 ubuntu systemd[1]: systemd-resolved.service: Succeeded.
+Oct 18 20:12:27 ubuntu systemd[1]: Stopped Network Name Resolution.
+Oct 18 20:12:27 ubuntu systemd[1]: Starting Network Name Resolution...
+Oct 18 20:12:27 ubuntu systemd-resolved[22965]: Positive Trust Anchors:
+Oct 18 20:12:27 ubuntu systemd-resolved[22965]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Oct 18 20:12:27 ubuntu systemd-resolved[22965]: Negative trust anchors: 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Oct 18 20:12:27 ubuntu systemd-resolved[22965]: Using system hostname 'ubuntu'.
+Oct 18 20:12:27 ubuntu systemd[1]: Started Network Name Resolution.
+Oct 18 20:12:35 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 20 (xid=0xdd46fd42)
+Oct 18 20:12:55 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 20 (xid=0xdd46fd42)
+Oct 18 20:13:15 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 9 (xid=0xdd46fd42)
+Oct 18 20:13:24 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 20 (xid=0xdd46fd42)
+Oct 18 20:13:25 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 18 20:13:25 ubuntu systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Oct 18 20:13:25 ubuntu systemd[1]: Finished Cleanup of Temporary Directories.
+Oct 18 20:13:44 ubuntu dhclient[22136]: DHCPDISCOVER on docker0 to 255.255.255.255 port 67 interval 8 (xid=0xdd46fd42)
+Oct 18 20:13:52 ubuntu dhclient[22136]: No DHCPOFFERS received.
+Oct 18 20:13:52 ubuntu dhclient[22136]: No working leases in persistent database - sleeping.
+Oct 18 20:13:52 ubuntu systemd[1]: Stopping Network Name Resolution...
+Oct 18 20:13:52 ubuntu systemd[1]: systemd-resolved.service: Succeeded.
+Oct 18 20:13:52 ubuntu systemd[1]: Stopped Network Name Resolution.
+Oct 18 20:13:52 ubuntu systemd[1]: Starting Network Name Resolution...
+Oct 18 20:13:52 ubuntu systemd-resolved[23015]: Positive Trust Anchors:
+Oct 18 20:13:52 ubuntu systemd-resolved[23015]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Oct 18 20:13:52 ubuntu systemd-resolved[23015]: Negative trust anchors: 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Oct 18 20:13:52 ubuntu systemd-resolved[23015]: Using system hostname 'ubuntu'.
+Oct 18 20:13:52 ubuntu systemd[1]: Started Network Name Resolution.
