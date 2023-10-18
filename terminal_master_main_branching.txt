@@ -1,0 +1,18 @@
+Already up to date.
+ubuntu $ git push origin master
+Username for 'https://github.com': brianlamb
+Password for 'https://brianlamb@github.com': 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.31 KiB | 1.31 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/brianlamb/killercoda-lxf/pull/new/master
+remote: 
+To https://github.com/brianlamb/killercoda-lxf.git
+ * [new branch]      master -> master
+ubuntu $ 
